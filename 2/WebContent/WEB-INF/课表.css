@@ -1,0 +1,35 @@
+@charset "UTF-8";
+table{
+	border-collapse:collapse;
+	margin:auto;
+	font-family:STKaiTi;
+	font-size:20px
+}
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:300px 300px;
+}
+
+.a{
+grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:1;
+  grid-row-end:3;
+   font-family:stxingkai;
+}
+.b{
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:1;
+  grid-row-end:3;
+   font-family:STKaiTi;
+   font-size:50px;
+}
+
+td{
+	border:1px solid black;
+}
+th{
+	border:1px solid black;
+}
